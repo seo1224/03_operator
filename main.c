@@ -5,20 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x, y;
-	int sum, sub;
+	int sec;
 	
-	printf ("input two integers :");
-	scanf ("%i %i",&x,&y);
+	printf("input :");
+	scanf("%d", &sec);
 	
-	sum = x + y;
-	sub = x - y;
-	
-	printf("+ operation : %i\n", sum);
-	printf("- operation : %i\n", sub);
-	printf("* operation : %i\n", x*y);
-	printf("/ operation : %i\n", x/y);
-	printf("%% operation : %i\n", x%y);
+	printf("%d sec. is %i : %i\n", sec, sec/60, sec%60);
 	
 	return 0;
 }
